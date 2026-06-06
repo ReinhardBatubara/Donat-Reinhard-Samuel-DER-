@@ -1,0 +1,24 @@
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+*.log
+
+# Go binaries
+backend/backend
+backend/backend.exe
+backend/*.exe
+
+# Flutter build and cache (if not covered by subdirectory .gitignores)
+percobaan/.dart_tool/
+percobaan/.flutter-plugins
+percobaan/.flutter-plugins-dependencies
+percobaan/.pub-cache/
+percobaan/.pub/
+percobaan/build/
+percobaan/android/app/debug/
+percobaan/android/app/profile/
+percobaan/android/app/release/

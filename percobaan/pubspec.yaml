@@ -1,0 +1,42 @@
+name: drs_app
+description: "DRS - Donat Reinhard Samuel. Aplikasi penjualan donat modern untuk customer dan admin."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # State management
+  flutter_riverpod: ^2.5.1
+  # Local storage
+  shared_preferences: ^2.3.2
+  # Internasionalisasi & formatting
+  intl: ^0.19.0
+  # Google Fonts
+  google_fonts: ^6.2.1
+  # UUID generator
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21 # android min sdk minVal
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
